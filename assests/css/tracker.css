@@ -1,0 +1,100 @@
+ 
+.properties{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+}
+.details{
+    border-style: none;
+    margin-right: 30%;
+    font-size: 25px;
+    background-color: white;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    cursor: pointer;
+}
+.addHabits{
+    border-style: none;
+    margin-right: 5px;
+    font-size: 25px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+    background-color:white;
+    
+    cursor: pointer;
+}
+
+.habit-form{
+     display: flex;
+     justify-content: center;
+     margin-top: 30px;
+     border: 2px solid white;
+     border-top-style: none;
+     border-left-style: none;
+     border-right-style: none;
+     
+     
+}
+.habit-form input {
+     padding: 10px;
+     border-style: none;
+     margin-right:5px;
+     background-color: white;
+     border: 4px solid black;
+     border-top-style: none;
+     border-left-style: none;
+     border-right-style: none;
+     border-left-width: 3px;
+     /* border-style:inset; */
+     border-style:double;
+     height: 50px;
+     font-size: 30px;
+     
+}
+
+.indicator {
+    cursor: pointer;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   margin-left: 10px;
+}
+.render-habits{
+    display: flex;
+    justify-content: center;
+    cursor: all-scroll;
+     background-color: black;
+}
+.list-item {
+    color: white;
+}
+.list-item div{
+    display: flex;
+    justify-content: space-between;
+}
+.habit i{
+    color:white;
+    height: 20px;
+    width: 20px;
+}
+.delete  a i{
+    color: red;
+}
+.delete a{
+     display: flex;
+     justify-content:space-evenly;
+}
+.list-item li{
+    border: 2px solid white;
+     font-size: 30px;
+     /* display: flex; */
+     /* justify-content:space-evenly; */
+     border-top-style:none;
+     border-left-style:none;
+     border-right-style: none;
+    }
+.list-item li div {
+    height: 30px;
+    width:  400px;
+}
+.delete{
+    margin:auto;
+}

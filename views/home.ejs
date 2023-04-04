@@ -1,0 +1,40 @@
+
+<link type="text/css" rel="stylesheet" href="/css/tracker.css">
+
+
+<!-- <div class="properties"> -->
+   <!-- <button class="details">DETAILS VIEW</button> -->
+   <!-- <button class="addHabits">+ADD HABITS</button> -->
+<!-- </div> -->
+
+ <form class="habit-form"  method="post" action="/add-habit">
+   <input type="text" class="habit-details-input rotate" placeholder="Enter Habit Name...." name="habit_name" required> 
+   <input class="indicator"  type="submit" value="ADD">
+</form> 
+
+
+
+<!-- <ul class="FetchDetails">
+ <% for(const it of habit_list) {  %>
+     <!-- <li><%= habit_list %></li> -->
+      <!-- <li><%=it.user%></li> -->
+      <!-- <li> <% const d= new Date() %></li> -->
+      <!-- <li><%=d %></li> -->
+
+ <!-- <% } %> -->
+
+<!-- </ul> --> 
+<div class="render-habits">
+   <ol class="list-item" type="1" >
+       <% for (const it of habit_list){ %>
+       <li onclick="location.href='/view-habit/?id=<%=it._id%>'" >
+           <div class="habit"> <i class="fas fa-smile-beam"></i> <%=it.habit_name%></div>
+           <div class="delete">
+               <a href="/delete-habit/?id=<%=it._id%>">
+                   <i class="fas fa-times"></i>
+               </a>
+           </div>
+       </li>
+       <% } %> 
+   </ol>
+</div>
