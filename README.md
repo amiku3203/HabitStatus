@@ -20,5 +20,7 @@
 								  
 		                                #preview of project
 										
-										![Screenshot 2023-04-07 142520](https://user-images.githubusercontent.com/121296949/230578015-0bf81fe2-d370-4adc-b042-2ca7eb5e064d.png)
+ ![Screenshot 2023-04-07 142520](https://user-images.githubusercontent.com/121296949/230578306-4e5bc63f-3d1d-449a-90dd-1d1de8d644f7.png)
+
+ 
 ![Screenshot 2023-04-07 142549](https://user-images.githubusercontent.com/121296949/230578067-d14a82f0-cbf0-4d5f-aa13-479800275828.png)
